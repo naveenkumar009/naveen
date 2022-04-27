@@ -1,0 +1,15 @@
+public class Fibonaccinumbers {
+public static void main(String[] args) {
+int elementPosition=1,count=10,
+firstFibonacciNum=0,nextFibonacciNum=1;
+System.out.print(firstFibonacciNum+nextFibonacciNum);
+for(elementposition=2;elementPosition<count;++elementPosition)
+{
+int sumofprev2=firstFibonacciNum+nextFibonacciNum;
+firstFibonacciNum=nextFibonacciNum;
+system.out.print(" "+sumofprev);
+nextFibonacciNum=sumofprev2;
+elementPosition++;
+}
+}
+}
